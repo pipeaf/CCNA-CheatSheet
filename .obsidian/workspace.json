@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "28738de6f9116856",
+    "type": "split",
+    "children": [
+      {
+        "id": "181b0253589e4342",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9015340e2e78436",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Packet Tracer CheatSheet/Command Packet Tracer CheatSheet for CCNA.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "70e78389b984ff11",
+    "type": "split",
+    "children": [
+      {
+        "id": "276b08e7efaf7600",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "393bf8aa4dbf6708",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3779d36f67630135",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "reload",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bb962b8fa8f82981",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "611eca724e180e5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b55ee3c246363aa3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09a16922dad744a0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Packet Tracer CheatSheet/Command Packet Tracer CheatSheet for CCNA.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fc19e6b981227b0c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Packet Tracer CheatSheet/Command Packet Tracer CheatSheet for CCNA.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e20c332240ad7a01",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "109e2986f1649874",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Packet Tracer CheatSheet/Command Packet Tracer CheatSheet for CCNA.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3779d36f67630135",
+  "lastOpenFiles": [
+    "Packet Tracer CheatSheet/Command Packet Tracer CheatSheet for CCNA.md",
+    "Packet Tracer CheatSheet"
+  ]
+}
