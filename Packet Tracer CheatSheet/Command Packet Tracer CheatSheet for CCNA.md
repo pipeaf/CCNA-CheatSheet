@@ -122,3 +122,19 @@ FF02::1:FF01:1
 | ``ip domain name <domain name>`` |Sets the default domain name (sufix) for the device. It is appended to unqualified hostnames when resolving domain names to fully qualified domain names (FQDNs)|
 | ``ip address <IPv4 address> [secondary option]`` | Configure an IPv6 address on a network interface. Secondary option to add more than one address |
 |  |  |
+
+| STP Commands | Action |
+| ---- | ---- |
+| ``Sw2# show spanning-tree <vlan number>`` |  |
+|  | |
+|  |  |
+|  |  |
+| |  |
+
+|Static IP Routing Commands | Action |
+| ---- | ---- |
+| ```` |  |
+|  | |
+|  |  |
+|  |  |
+| |  |
