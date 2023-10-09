@@ -80,7 +80,11 @@ FF02::1:FF01:1
 
 | VLAN Commands | Action |
 | ---- | ---- |
+|SW1(config)  |  |
+| show interface trunk | |
 |  |  |
+|  |  |
+| |  |
 |  | |
 |  |  |
 |  |  |
@@ -128,6 +132,10 @@ FF02::1:FF01:1
 | ``Sw2# show spanning-tree <vlan number>`` |  |
 |  | |
 |  |  |
+|  |  |
+|``SW(config-if)# spanning-tree portfast``| Only to the access ports! activate portfast mode  |
+| ``SW(config-if)# spanning-tree bpduguard enable`` | |
+| ``SW(config)# errdisable recovery cause bodyguard`` | Recuperarse de error bodyguard |
 |  |  |
 | |  |
 
