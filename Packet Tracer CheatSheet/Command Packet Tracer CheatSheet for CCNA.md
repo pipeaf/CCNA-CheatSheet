@@ -92,7 +92,7 @@ FF02::1:FF01:1
 
 | DHCP Commands | Action |
 | ---- | ---- |
-| `` R1(config)# ip dhcp excluded-address <inicial>(<final>)``|  |
+| `` R1(config)# ip dhcp excluded-address <inicial>(<final>)``| Exclude some ip address |
 | ``R1(config)# ip dhcp pool <Name>`` | |
 | ``R1(dhcp-config)# network <network> <nask> ``|  |
 | ``R1(dhcp-config)# default-router <gateway> `` |  |
@@ -101,7 +101,7 @@ FF02::1:FF01:1
 | ``show ip dhcp binding ``| lista de direcciones dadas |
 | ``show ip dhcp server statistic`` |devuelve informacion relacionada del numero de mensajes dhcp han sido enviados y recibidos |
 | ``R1(dhcp-config)lease <tiempo>``| no solo es la unica configuration que vva a relay el rotuer|
-| ``show running config | section dhcp``|despliega configuracion dhcp del router |
+| ``show running config ``| section dhcp``|despliega configuracion dhcp del router |
 | ``R1(config)#no service dhcp ``| disable|
 | ``R1(interface) ip helper- address <dhcp server address you want>``| |
 | ``ip address dhcp ``|habilita que un equipo coja en esa interfaz la direccion ip en modo dhcp |
@@ -146,3 +146,24 @@ FF02::1:FF01:1
 |  |  |
 |  |  |
 | |  |
+
+
+|EtherChannel Commands | Action |
+| ---- | ---- |
+| ``SW1(config-if-range)# channel-group 1 mode <mode>`` | Creates |
+|``SW1(config-if)# interface port-channel 1``  | |
+| ``SW1(config-if)# switchport mode trunk`` | Security measures |
+|``switchport trunk allowed <vlans>``  |  Security measures |
+|``switchport trunk allowed <vlans>``  |  |
+|``S1# show etherchannel summary`` | View the EtherChannel summary information |
+| |  |
+| |  |
+| |  |
+| |  
+
+
+|FHRP Commands | Action |
+| ---- | ---- |
+| R1(config-if)#standby 1 priority 150| For the active this commands below |
+|#standby ip 192.168.1.3 |  |
+| R2#stanby 1 ip 192.168.1.3 | Comando Para los standby |  
