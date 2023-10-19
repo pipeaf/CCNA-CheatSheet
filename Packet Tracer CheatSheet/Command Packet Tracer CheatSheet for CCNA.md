@@ -167,3 +167,15 @@ FF02::1:FF01:1
 | ``R1(config-if)#standby 1 priority 150``| For the active this commands below |
 |``#standby ip 192.168.1.3`` |  |
 | ``R2#stanby 1 ip 192.168.1.3`` | Comando Para los standby |  
+
+| Security Commands | Action |
+| ---- | ---- |
+| ``switchport port-security`` |It can't be used in a dynamic port|
+| ``switchport port-security mac-address <mac>`` | Manually configure|
+| ``switchport port-security mac-address sticky``  |  |
+| ``S1# show port security`` |  |
+|``switchport port-security maximum 4`` |  |
+|  | |
+|  |  |
+|  |  |
+| |  |
