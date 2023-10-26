@@ -141,8 +141,8 @@ FF02::1:FF01:1
 
 |Static IP Routing Commands | Action |
 | ---- | ---- |
-| ```` |  |
-|  | |
+| ``show ip route`` |  |
+| ``ip route <address> <mask> <next-hop> <interfaz salida><distancia administrativa>`` | solo vamos a poder especificar 1 de estos. y la de salida solamente en un pto a pto. Lo mas seguro para evitar fallos seria usar next-hop, recordar que se puede hacer una ruta flotante |
 |  |  |
 |  |  |
 | |  |
@@ -168,14 +168,27 @@ FF02::1:FF01:1
 |``#standby ip 192.168.1.3`` |  |
 | ``R2#stanby 1 ip 192.168.1.3`` | Comando Para los standby |  
 
+
 | Security Commands | Action |
 | ---- | ---- |
-| ``switchport port-security`` |It can't be used in a dynamic port|
+| ``SW1(config)# switchport port-security`` |It can't be used in a dynamic port|
 | ``switchport port-security mac-address <mac>`` | Manually configure|
 | ``switchport port-security mac-address sticky``  |  |
 | ``S1# show port security`` |  |
-|``switchport port-security maximum 4`` |  |
-|  | |
+|``switchport port-security maximum <number>`` |  |
+|``switchport port-security violation restrict``  | |
+| ```` |  |
 |  |  |
+| |  |
+
+|  Commands | Action |
+| ---- | ---- |
+| ```` ||
+| ```` | |
+|   |  |
+| ```` |  |
+|```` |  |
+|````  | |
+| ```` |  |
 |  |  |
 | |  |
